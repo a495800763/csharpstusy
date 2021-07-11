@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/ConsoleApp2/v15/Server/sqlite3/storage.ide
+*.lock
+/.vs/ConsoleApp2/v15/Server/sqlite3/storage.ide-shm
+/.vs/ConsoleApp2/v15/Server/sqlite3/storage.ide-wal
