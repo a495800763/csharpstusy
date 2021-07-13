@@ -10,7 +10,7 @@ namespace ConsoleApp2
     {
         public static void Main(string[] args)
         {
-            IfTest.Function();
+            SwitchTest.SwitchTestFunction();
         }
     }
 }
