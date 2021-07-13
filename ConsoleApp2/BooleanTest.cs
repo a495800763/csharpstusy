@@ -5,7 +5,7 @@ namespace ConsoleApp2
 {
     internal class BooleanTest
     {
-        private static void Main(string[] args)
+        private static void Function(string[] args)
         {
             WriteLine("Enter an Integer");
             int myInt = ToInt32(ReadLine());

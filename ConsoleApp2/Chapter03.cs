@@ -5,7 +5,7 @@ namespace ConsoleApp2
 {
     internal class Chapter03
     {
-        private static void Main(string[] args)
+        private static void Function(string[] args)
         {
             double firstNumber, secondNumber;
             string userName;
