@@ -5,7 +5,7 @@ namespace ConsoleApp2
 {
     internal class DoWhileTest
     {
-        public static void Main(string[] args)
+        public static void Function(string[] args)
         {
             double balance, interestRate, targetBalance;
             WriteLine("what's your current balance");
