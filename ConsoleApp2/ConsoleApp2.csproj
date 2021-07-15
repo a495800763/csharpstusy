@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="BooleanTest.cs" />
     <Compile Include="Chapter03.cs" />
+    <Compile Include="DoWhileTest.cs" />
     <Compile Include="IfTest.cs" />
     <Compile Include="interThisProgram.cs" />
     <Compile Include="Program.cs" />
