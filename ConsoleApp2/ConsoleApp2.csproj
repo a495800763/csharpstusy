@@ -65,7 +65,9 @@
     <Compile Include="DoWhileTest.cs" />
     <Compile Include="IfTest.cs" />
     <Compile Include="interThisProgram.cs" />
+    <Compile Include="MaxValue.cs" />
     <Compile Include="orientation.cs" />
+    <Compile Include="ParamArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StructTest.cs" />
