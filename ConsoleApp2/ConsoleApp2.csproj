@@ -67,9 +67,11 @@
     <Compile Include="interThisProgram.cs" />
     <Compile Include="MaxValue.cs" />
     <Compile Include="orientation.cs" />
+    <Compile Include="OutTest.cs" />
     <Compile Include="ParamArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RefTest.cs" />
     <Compile Include="StructTest.cs" />
     <Compile Include="SwitchCaseTest.cs" />
     <Compile Include="SwitchTest.cs" />
