@@ -9,7 +9,7 @@ namespace ConsoleApp2
 {
     class TraceTest
     {
-        public static void Main(string[] args)
+        public static void Function(string[] args)
         {
             int[] testArray = { 4, 7, 4, 2, 7, 3, 7, 8, 3, 9, 1, 9 };
             int maxVal = Maxima(testArray, out int[] maxValIndices);
