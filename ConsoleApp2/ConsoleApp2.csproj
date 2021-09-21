@@ -67,6 +67,7 @@
     <Compile Include="BooleanTest.cs" />
     <Compile Include="Chapter03.cs" />
     <Compile Include="ClassAndObject\ClassTest.cs" />
+    <Compile Include="ClassAndObject\StructAndClassTest.cs" />
     <Compile Include="ClassAndObject\TestDllReference.cs" />
     <Compile Include="DelegateTest.cs" />
     <Compile Include="DoWhileTest.cs" />

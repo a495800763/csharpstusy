@@ -9,7 +9,8 @@ namespace ConsoleApp2.ClassAndObject
 {
     class TestDllReference
     {
-        public static void Main(string[] args)
+        public static void MainNew
+            (string[] args)
         {
             MyExternalClassNew myObj = new MyExternalClassNew();
             Console.WriteLine(myObj.ToString());
