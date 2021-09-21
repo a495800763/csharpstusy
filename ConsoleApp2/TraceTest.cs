@@ -1,27 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Diagnostics;
 
 namespace ConsoleApp2
 {
-    class TraceTest
+    internal class TraceTest
     {
         public static void Function(string[] args)
         {
             int[] testArray = { 4, 7, 4, 2, 7, 3, 7, 8, 3, 9, 1, 9 };
             int maxVal = Maxima(testArray, out int[] maxValIndices);
             Console.WriteLine($"Maximum value {maxVal} found at element indices:");
-            foreach(var item in maxValIndices)
+            foreach (var item in maxValIndices)
             {
                 Console.WriteLine(item);
             }
             Console.ReadKey();
         }
 
-        public static int Maxima(int [] integers, out int[] indices)
+        public static int Maxima(int[] integers, out int[] indices)
         {
             Debug.WriteLine("Maximum value search started!");
             indices = new int[1];
@@ -29,7 +25,7 @@ namespace ConsoleApp2
             indices[0] = 0;
             int count = 1;
             Debug.WriteLine(string.Format($"Maximum value initialized to {maxVal}, at element index 0"));
-            for(int  i = 1; i < integers.Length; i++)
+            for (int i = 1; i < integers.Length; i++)
             {
                 Debug.WriteLine(string.Format($"Now looking at element at index {i}"));
                 if (integers[i] > maxVal)

@@ -1,31 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-
-    enum Orientation : byte 
+    internal enum Orientation : byte
     {
-        north =1,
-        south=2,
-        east =3,
-        west =4
+        north = 1,
+        south = 2,
+        east = 3,
+        west = 4
     }
 
     /// <summary>
     /// 路由 结构体
     /// </summary>
-    struct route
+    internal struct route
     {
         //方向
         public Orientation direction;
+
         //距离
         public double distance;
     }
-    class StructTest
+
+    internal class StructTest
     {
         public static void Function()
         {
@@ -37,7 +34,7 @@ namespace ConsoleApp2
             {
                 Console.WriteLine("Select a direction:");
                 myDirection = Convert.ToInt32(Console.ReadLine());
-            } while ((myDirection < 1)||(myDirection>4));
+            } while ((myDirection < 1) || (myDirection > 4));
 
             Console.WriteLine("Input a Distance:");
             myDistance = Convert.ToDouble(Console.ReadLine());

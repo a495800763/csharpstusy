@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 /// <summary>
 /// 类型转换
 /// </summary>
 namespace ConsoleApp2
 {
-    class TypeTransfer
+    internal class TypeTransfer
     {
         public static void Function1()
         {
@@ -63,7 +59,6 @@ namespace ConsoleApp2
             longResult = integerVar + Convert.ToInt64(stringVal);
             Console.WriteLine($"Mixed,-> long: {integerVar}+{stringVal} -->{longResult} ");
             Console.ReadKey();
-
         }
     }
 }

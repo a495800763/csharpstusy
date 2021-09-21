@@ -5,3 +5,6 @@ C:\Users\liumq\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj
 C:\Users\liumq\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
 C:\Users\liumq\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
 C:\Users\liumq\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csprojAssemblyReference.cache
+C:\Users\liumq\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ClassTestLib.dll
+C:\Users\liumq\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ClassTestLib.pdb
+C:\Users\liumq\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CopyComplete

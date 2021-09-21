@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-
     /// <summary>
     /// out 关键字测试
     /// </summary>
-    class OutTest
+    internal class OutTest
     {
         public static void call()
         {
@@ -20,11 +15,11 @@ namespace ConsoleApp2
             Console.ReadKey();
         }
 
-        public static int MaxValue(int[] intArray,out int maxIndex)
+        public static int MaxValue(int[] intArray, out int maxIndex)
         {
             int maxValue = intArray[0];
             maxIndex = 0;
-            for(int  i = 1; i < intArray.Length; i++)
+            for (int i = 1; i < intArray.Length; i++)
             {
                 if (intArray[i] >= maxValue)
                 {

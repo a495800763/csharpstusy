@@ -1,0 +1,6 @@
+C:\Users\liumq\source\repos\ConsoleApp2\ClassTestLib\bin\Debug\ClassTestLib.dll
+C:\Users\liumq\source\repos\ConsoleApp2\ClassTestLib\bin\Debug\ClassTestLib.pdb
+C:\Users\liumq\source\repos\ConsoleApp2\ClassTestLib\obj\Debug\ClassTestLib.csprojAssemblyReference.cache
+C:\Users\liumq\source\repos\ConsoleApp2\ClassTestLib\obj\Debug\ClassTestLib.csproj.CoreCompileInputs.cache
+C:\Users\liumq\source\repos\ConsoleApp2\ClassTestLib\obj\Debug\ClassTestLib.dll
+C:\Users\liumq\source\repos\ConsoleApp2\ClassTestLib\obj\Debug\ClassTestLib.pdb

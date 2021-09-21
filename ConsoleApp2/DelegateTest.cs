@@ -1,18 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
     /// <summary>
     /// 委托测试
     /// </summary>
-    class DelegateTest
+    internal class DelegateTest
     {
-        delegate double ProcessDelegate(double param1, double param2);
-        public static double Multiply(double a,double b)
+        private delegate double ProcessDelegate(double param1, double param2);
+
+        public static double Multiply(double a, double b)
         {
             return a * b;
         }
@@ -35,7 +32,8 @@ namespace ConsoleApp2
             if (option == "M")
             {
                 process = new ProcessDelegate(Multiply);
-            }else if (option == "D")
+            }
+            else if (option == "D")
             {
                 process = new ProcessDelegate(Divide);
             }
@@ -43,10 +41,8 @@ namespace ConsoleApp2
             {
                 process = null;
                 Console.WriteLine("请输入正确的操作符");
-
             }
-            Console.WriteLine($"Result:{ process(p1,p2)}");
-
-        } 
+            Console.WriteLine($"Result:{ process(p1, p2)}");
+        }
     }
 }

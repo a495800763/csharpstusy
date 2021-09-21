@@ -49,6 +49,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ClassTestLib">
+      <HintPath>..\ClassTestLib\bin\Debug\ClassTestLib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -64,6 +67,7 @@
     <Compile Include="BooleanTest.cs" />
     <Compile Include="Chapter03.cs" />
     <Compile Include="ClassAndObject\ClassTest.cs" />
+    <Compile Include="ClassAndObject\TestDllReference.cs" />
     <Compile Include="DelegateTest.cs" />
     <Compile Include="DoWhileTest.cs" />
     <Compile Include="ExceptionFilterTest.cs" />

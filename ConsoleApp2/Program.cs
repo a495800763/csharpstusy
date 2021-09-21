@@ -4,7 +4,7 @@ namespace ConsoleApp2
 {
     internal class Program
     {
-        static void Function(string[] args)
+        private static void Function(string[] args)
         {
             int myInteger;
             string myString;

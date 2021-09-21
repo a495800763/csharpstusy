@@ -1,0 +1,8 @@
+C:\Users\liumq\source\repos\ConsoleApp2\DllTest\bin\Debug\netstandard2.0\DllTest.deps.json
+C:\Users\liumq\source\repos\ConsoleApp2\DllTest\bin\Debug\netstandard2.0\DllTest.dll
+C:\Users\liumq\source\repos\ConsoleApp2\DllTest\bin\Debug\netstandard2.0\DllTest.pdb
+C:\Users\liumq\source\repos\ConsoleApp2\DllTest\obj\Debug\netstandard2.0\DllTest.csproj.CoreCompileInputs.cache
+C:\Users\liumq\source\repos\ConsoleApp2\DllTest\obj\Debug\netstandard2.0\DllTest.AssemblyInfoInputs.cache
+C:\Users\liumq\source\repos\ConsoleApp2\DllTest\obj\Debug\netstandard2.0\DllTest.AssemblyInfo.cs
+C:\Users\liumq\source\repos\ConsoleApp2\DllTest\obj\Debug\netstandard2.0\DllTest.dll
+C:\Users\liumq\source\repos\ConsoleApp2\DllTest\obj\Debug\netstandard2.0\DllTest.pdb
