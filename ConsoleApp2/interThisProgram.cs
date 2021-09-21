@@ -8,21 +8,21 @@ namespace ConsoleApp2
 {
     class interThisProgram
     {
-        public static void Main(string[] args)
-        {
-            //int[] myArray = { 1, 8, 3, 6, 9, 5, 2, 3, 1, 5, 2, 3, 15 };
+        //public static void Main(string[] args)
+        //{
+        //    //int[] myArray = { 1, 8, 3, 6, 9, 5, 2, 3, 1, 5, 2, 3, 15 };
 
-            //int maxVal = MaxValue.MaxValueFunction(myArray);
-            //Console.WriteLine($"The maximum value in myArray is {maxVal}");
+        //    //int maxVal = MaxValue.MaxValueFunction(myArray);
+        //    //Console.WriteLine($"The maximum value in myArray is {maxVal}");
 
 
-            //ParamArray.Call();
+        //    //ParamArray.Call();
 
-            //RefTest.test();
+        //    //RefTest.test();
 
-            OutTest.call();
+        //    OutTest.call();
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 }

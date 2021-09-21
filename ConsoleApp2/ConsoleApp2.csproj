@@ -78,6 +78,7 @@
     <Compile Include="StructTest.cs" />
     <Compile Include="SwitchCaseTest.cs" />
     <Compile Include="SwitchTest.cs" />
+    <Compile Include="TraceTest.cs" />
     <Compile Include="TypeTransfer.cs" />
   </ItemGroup>
   <ItemGroup>
