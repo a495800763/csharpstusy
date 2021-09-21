@@ -13,7 +13,7 @@ namespace ConsoleApp2
     {
         static string[] eTypes = { "none", "simple", "index", "nested index", "filter" };
         
-        static void Main(string[] args)
+        static void MainNew(string[] args)
         {
             foreach(var type in eTypes)
             {
