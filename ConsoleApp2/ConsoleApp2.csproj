@@ -76,6 +76,7 @@
     <Compile Include="IfTest.cs" />
     <Compile Include="interThisProgram.cs" />
     <Compile Include="MaxValue.cs" />
+    <Compile Include="MyBaseClass.cs" />
     <Compile Include="orientation.cs" />
     <Compile Include="OutTest.cs" />
     <Compile Include="ParamArray.cs" />

@@ -13,20 +13,25 @@ namespace ConsoleApp2.ClassAndObject
     {
         static void Main(string[] args)
         {
-            MyClassNew objA = new MyClassNew();
-            MyClassNew objB = objA;
-            objA.val = 10;
-            objB.val = 20;
+            //MyClassNew objA = new MyClassNew();
+            //MyClassNew objB = objA;
+            //objA.val = 10;
+            //objB.val = 20;
 
-            MyStructNew structA = new MyStructNew();
-            MyStructNew structB = structA;
-            structA.val = 30;
-            structB.val = 40;
+            //MyStructNew structA = new MyStructNew();
+            //MyStructNew structB = structA;
+            //structA.val = 30;
+            //structB.val = 40;
 
-            Console.WriteLine($"objA val is {objA.val}");
-            Console.WriteLine($"objB val is {objB.val}");
-            Console.WriteLine($"structA val is {structA.val}");
-            Console.WriteLine($"structB val is {structB.val}");
+            //Console.WriteLine($"objA val is {objA.val}");
+            //Console.WriteLine($"objB val is {objB.val}");
+            //Console.WriteLine($"structA val is {structA.val}");
+            //Console.WriteLine($"structB val is {structB.val}");
+
+            MyVirtualDerivedClass myObj = new MyVirtualDerivedClass();
+            MyVirtualBaseClass myBaseObj;
+            myBaseObj = myObj;
+            myBaseObj.Dosomething();
 
             Console.ReadKey();
 
