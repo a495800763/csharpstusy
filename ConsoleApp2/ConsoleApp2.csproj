@@ -72,6 +72,7 @@
     <Compile Include="DelegateTest.cs" />
     <Compile Include="DoWhileTest.cs" />
     <Compile Include="ExceptionFilterTest.cs" />
+    <Compile Include="GetSetTest.cs" />
     <Compile Include="IfTest.cs" />
     <Compile Include="interThisProgram.cs" />
     <Compile Include="MaxValue.cs" />
