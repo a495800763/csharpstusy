@@ -26,7 +26,7 @@ namespace ConsoleApp2.Collections
 
         public Animal(string name) => this.name = name;
 
-        public void feed() => Console.WriteLine($"{name} has been fed.");
+        public void Feed() => Console.WriteLine($"{name} has been fed.");
 
     }
 }

@@ -11,7 +11,7 @@ namespace ConsoleApp2.ClassAndObject
     /// </summary>
     class StructAndClassTest
     {
-        static void Main(string[] args)
+        static void Function(string[] args)
         {
             //MyClassNew objA = new MyClassNew();
             //MyClassNew objB = objA;
