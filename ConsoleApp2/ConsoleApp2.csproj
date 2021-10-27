@@ -69,6 +69,10 @@
     <Compile Include="ClassAndObject\ClassTest.cs" />
     <Compile Include="ClassAndObject\StructAndClassTest.cs" />
     <Compile Include="ClassAndObject\TestDllReference.cs" />
+    <Compile Include="Collections\Animal.cs" />
+    <Compile Include="Collections\Chicken.cs" />
+    <Compile Include="Collections\Cow.cs" />
+    <Compile Include="Collections\Progroms.cs" />
     <Compile Include="DelegateTest.cs" />
     <Compile Include="DoWhileTest.cs" />
     <Compile Include="ExceptionFilterTest.cs" />
