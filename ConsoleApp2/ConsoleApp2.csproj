@@ -73,6 +73,7 @@
     <Compile Include="Collections\Animals.cs" />
     <Compile Include="Collections\Chicken.cs" />
     <Compile Include="Collections\Cow.cs" />
+    <Compile Include="Collections\Primes.cs" />
     <Compile Include="Collections\Progroms.cs" />
     <Compile Include="DelegateTest.cs" />
     <Compile Include="DoWhileTest.cs" />

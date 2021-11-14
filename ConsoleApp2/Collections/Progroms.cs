@@ -9,7 +9,7 @@ namespace ConsoleApp2.Collections
 {
     public class Progroms
     {
-        public static void Main(string[] args)
+        public static void Fucntion (string[] args)
         {
             Console.WriteLine("Create an Array type collection of Animal " +
                                "objects and use it:");
