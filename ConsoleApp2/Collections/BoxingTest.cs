@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ConsoleApp2.Collections
-{
+{ 
     class BoxingTest
     {
-        public static void Main (string[] args)
+        public static void Function (string[] args)
         {
             MyStruct valType1 = new MyStruct();
             valType1.val = 5;
