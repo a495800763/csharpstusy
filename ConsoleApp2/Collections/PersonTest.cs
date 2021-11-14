@@ -9,7 +9,7 @@ namespace ConsoleApp2.Collections
 {
     public class PersonTest
     {
-        public static void Main(string[] args)
+        public static void Function (string[] args)
         {
             ArrayList list = new ArrayList();
             list.Add(new Person("Rual", 30));
