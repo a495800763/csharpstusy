@@ -50,7 +50,7 @@ namespace ConsoleApp2.Collections
             }
         }
 
-        public static void Main(string[] args)
+        public static void Fucntion (string[] args)
         {
             Primes test = new Primes(2, 10000);
             foreach (long i in test)

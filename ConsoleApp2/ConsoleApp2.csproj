@@ -71,6 +71,7 @@
     <Compile Include="ClassAndObject\TestDllReference.cs" />
     <Compile Include="Collections\Animal.cs" />
     <Compile Include="Collections\Animals.cs" />
+    <Compile Include="Collections\BoxingTest.cs" />
     <Compile Include="Collections\Chicken.cs" />
     <Compile Include="Collections\Cow.cs" />
     <Compile Include="Collections\Primes.cs" />
