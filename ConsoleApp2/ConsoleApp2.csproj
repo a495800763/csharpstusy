@@ -84,6 +84,8 @@
     <Compile Include="ExceptionFilterTest.cs" />
     <Compile Include="Generic\Test.cs" />
     <Compile Include="Generic\Vector.cs" />
+    <Compile Include="Generic\VectorDelegates.cs" />
+    <Compile Include="Generic\Vectors.cs" />
     <Compile Include="GetSetTest.cs" />
     <Compile Include="IfTest.cs" />
     <Compile Include="interThisProgram.cs" />
