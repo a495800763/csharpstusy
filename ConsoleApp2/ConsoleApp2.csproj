@@ -82,6 +82,7 @@
     <Compile Include="DelegateTest.cs" />
     <Compile Include="DoWhileTest.cs" />
     <Compile Include="ExceptionFilterTest.cs" />
+    <Compile Include="Generic\GeneticTest.cs" />
     <Compile Include="Generic\Test.cs" />
     <Compile Include="Generic\Vector.cs" />
     <Compile Include="Generic\VectorDelegates.cs" />
