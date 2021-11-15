@@ -38,6 +38,8 @@ namespace ConsoleApp2.Generic
             Console.ReadKey();
 
 
+            //Dictionary<string, int> things = new Dictionary<string, int>(StringComparer.CurrentCultureIgnoreCase);
+
         }
 
         static Vector GetVector(string name)
