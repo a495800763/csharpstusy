@@ -41,6 +41,18 @@ namespace ConsoleApp2.Generic
 
             //Dictionary<string, int> things = new Dictionary<string, int>(StringComparer.CurrentCultureIgnoreCase);
 
+            List<Cow> cows = new List<Cow>();
+            cows.Add(new Cow("Rual"));
+            cows.Add(new SupperCow("Donna"));
+            cows.Add(new Cow("Mary"));
+            cows.Add(new Cow("Ben"));
+            cows.Sort(new AnimalNameLengthComparer());
+            Console.WriteLine(cows.ToString());
+            Console.ReadKey();
+        }
+
+        static void Test1()
+        {
             Farm<Animal> farm = new Farm<Animal>();
             farm.Animals.Add(new Cow("A"));
             farm.Animals.Add(new Chicken("B"));
@@ -51,16 +63,15 @@ namespace ConsoleApp2.Generic
 
             Farm<Cow> cows = farm.getCows();
 
-            foreach(Cow cow in cows)
+            foreach (Cow cow in cows)
             {
-                if(cow is SupperCow)
+                if (cow is SupperCow)
                 {
                     ((SupperCow)cow).Fly();
                 }
             }
 
             Console.ReadKey();
-
         }
 
         static Vector GetVector(string name)
