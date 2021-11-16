@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp2.Collections;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,29 +17,49 @@ namespace ConsoleApp2.Generic
             //Console.WriteLine($"{v1} - {v2} = {v1 - v2}");
             //Console.ReadKey();
 
-            Vectors route = new Vectors();
-            route.Add(new Vector(2.0, 90.0));
-            route.Add(new Vector(1.0, 180.0));
-            route.Add(new Vector(0.5, 45.0));
-            route.Add(new Vector(2.5, 315.0));
-            Console.WriteLine(route.Sum());
+            //Vectors route = new Vectors();
+            //route.Add(new Vector(2.0, 90.0));
+            //route.Add(new Vector(1.0, 180.0));
+            //route.Add(new Vector(0.5, 45.0));
+            //route.Add(new Vector(2.5, 315.0));
+            //Console.WriteLine(route.Sum());
 
-            //比较条件的泛型委托
-            Comparison<Vector> sorter = new Comparison<Vector>(VectorDelegates.Compare);
-            route.Sort(sorter);
+            ////比较条件的泛型委托
+            //Comparison<Vector> sorter = new Comparison<Vector>(VectorDelegates.Compare);
+            //route.Sort(sorter);
 
-            Console.WriteLine(route.Sum());
+            //Console.WriteLine(route.Sum());
 
-            //逻辑条件的泛型委托
-            Predicate<Vector> searcher = new Predicate<Vector>(VectorDelegates.TopRightQuadrant);
+            ////逻辑条件的泛型委托
+            //Predicate<Vector> searcher = new Predicate<Vector>(VectorDelegates.TopRightQuadrant);
 
-            Vectors topRightQuadrantRoute = new Vectors(route.FindAll(searcher));
+            //Vectors topRightQuadrantRoute = new Vectors(route.FindAll(searcher));
 
-            Console.WriteLine(topRightQuadrantRoute.Sum());
-            Console.ReadKey();
+            //Console.WriteLine(topRightQuadrantRoute.Sum());
+            //Console.ReadKey();
 
 
             //Dictionary<string, int> things = new Dictionary<string, int>(StringComparer.CurrentCultureIgnoreCase);
+
+            Farm<Animal> farm = new Farm<Animal>();
+            farm.Animals.Add(new Cow("A"));
+            farm.Animals.Add(new Chicken("B"));
+            farm.Animals.Add(new Chicken("C"));
+            farm.Animals.Add(new SupperCow("D"));
+
+            farm.MakeNoise();
+
+            Farm<Cow> cows = farm.getCows();
+
+            foreach(Cow cow in cows)
+            {
+                if(cow is SupperCow)
+                {
+                    ((SupperCow)cow).Fly();
+                }
+            }
+
+            Console.ReadKey();
 
         }
 

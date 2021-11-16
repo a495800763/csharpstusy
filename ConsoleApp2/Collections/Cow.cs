@@ -10,5 +10,10 @@ namespace ConsoleApp2.Collections
     {
         public void Milk() => Console.WriteLine($"{name} has been milked.");
         public Cow(string name) : base(name) { }
+
+        public override void MakeANoise()
+        {
+            Console.WriteLine($"{name} says 'moo' !");
+        }
     }
 }

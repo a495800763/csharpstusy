@@ -74,11 +74,13 @@
     <Compile Include="Collections\BoxingTest.cs" />
     <Compile Include="Collections\Chicken.cs" />
     <Compile Include="Collections\Cow.cs" />
+    <Compile Include="Collections\Farm.cs" />
     <Compile Include="Collections\Person.cs" />
     <Compile Include="Collections\PersonCompareName.cs" />
     <Compile Include="Collections\PersonTest.cs" />
     <Compile Include="Collections\Primes.cs" />
     <Compile Include="Collections\Progroms.cs" />
+    <Compile Include="Collections\SupperCow.cs" />
     <Compile Include="DelegateTest.cs" />
     <Compile Include="DoWhileTest.cs" />
     <Compile Include="ExceptionFilterTest.cs" />
