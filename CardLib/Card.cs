@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace CardLib
+﻿namespace CardLib
 {
     public class Card
     {
@@ -12,7 +7,6 @@ namespace CardLib
 
         private Card()
         {
-            throw new System.NotImplementedException();
         }
 
         public Card(Suit newSuit, Rank newRank)

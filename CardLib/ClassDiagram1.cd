@@ -17,6 +17,16 @@
       <Field Name="suit" />
     </ShowAsAssociation>
   </Class>
+  <Class Name="CardLib.Deck">
+    <Position X="1.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Deck.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="cards" />
+    </ShowAsAssociation>
+  </Class>
   <Enum Name="CardLib.Suit">
     <Position X="4.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
