@@ -101,6 +101,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RefTest.cs" />
+    <Compile Include="SeniorTec\Connection.cs" />
+    <Compile Include="SeniorTec\Display.cs" />
+    <Compile Include="SeniorTec\EventTest.cs" />
+    <Compile Include="SeniorTec\MainClass.cs" />
     <Compile Include="StructFunction.cs" />
     <Compile Include="StructTest.cs" />
     <Compile Include="SwitchCaseTest.cs" />

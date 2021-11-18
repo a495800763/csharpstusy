@@ -9,7 +9,7 @@ namespace ConsoleApp2.Generic
 {
     class Test
     {
-        public static void Main(string[] args)
+        public static void Function (string[] args)
         {
             //Vector v1 = GetVector("vector1");
             //Vector v2 = GetVector("vector2");
