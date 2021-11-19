@@ -1,0 +1,6 @@
+C:\Users\liumq\source\repos\ConsoleApp2\CardLib\bin\Debug\CardLib.dll
+C:\Users\liumq\source\repos\ConsoleApp2\CardLib\bin\Debug\CardLib.pdb
+C:\Users\liumq\source\repos\ConsoleApp2\CardLib\obj\Debug\CardLib.csprojAssemblyReference.cache
+C:\Users\liumq\source\repos\ConsoleApp2\CardLib\obj\Debug\CardLib.csproj.CoreCompileInputs.cache
+C:\Users\liumq\source\repos\ConsoleApp2\CardLib\obj\Debug\CardLib.dll
+C:\Users\liumq\source\repos\ConsoleApp2\CardLib\obj\Debug\CardLib.pdb

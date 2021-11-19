@@ -1,0 +1,10 @@
+C:\Users\liumq\source\repos\ConsoleApp2\CardClient\bin\Debug\CardClient.exe.config
+C:\Users\liumq\source\repos\ConsoleApp2\CardClient\bin\Debug\CardClient.exe
+C:\Users\liumq\source\repos\ConsoleApp2\CardClient\bin\Debug\CardClient.pdb
+C:\Users\liumq\source\repos\ConsoleApp2\CardClient\bin\Debug\CardLib.dll
+C:\Users\liumq\source\repos\ConsoleApp2\CardClient\bin\Debug\CardLib.pdb
+C:\Users\liumq\source\repos\ConsoleApp2\CardClient\obj\Debug\CardClient.csprojAssemblyReference.cache
+C:\Users\liumq\source\repos\ConsoleApp2\CardClient\obj\Debug\CardClient.csproj.CoreCompileInputs.cache
+C:\Users\liumq\source\repos\ConsoleApp2\CardClient\obj\Debug\CardClient.csproj.CopyComplete
+C:\Users\liumq\source\repos\ConsoleApp2\CardClient\obj\Debug\CardClient.exe
+C:\Users\liumq\source\repos\ConsoleApp2\CardClient\obj\Debug\CardClient.pdb
