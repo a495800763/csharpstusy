@@ -33,5 +33,33 @@ namespace CardLib
             //throw new NotImplementedException();
             return MemberwiseClone();
         }
+
+        /// <summary>
+        /// Flag for trump usage.If true,trumps are valued higher
+        /// than cards of other suits
+        /// </summary>
+        public static bool useTrumps = false;
+
+        /// <summary>
+        /// Trump suit to use if useTrumps is true
+        /// </summary>
+        public static Suit trump = Suit.Club;
+
+        /// <summary>
+        /// Flag that datermines whether aces are higher than kings or lower
+        /// than deuces
+        /// </summary>
+        public static bool isAceHigh = true;
+
+
+        public static bool operator == (Card card1,Card card2)
+        {
+            return (card1?.suit == card2?.suit) && (card1?.rank == card2?.rank);
+        }
+
+        public static bool operator != (Card card1,Card card2)
+        {
+            return !(card1 == card2);
+        }
     }
 }

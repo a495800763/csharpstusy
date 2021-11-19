@@ -20,6 +20,28 @@ namespace CardLib
             }
         }
 
+        /// <summary>
+        /// 非默认构造函数，允许将A牌设置成跟高级别的
+        /// </summary>
+        /// <param name="isAceHigh"></param>
+        public Deck(bool isAceHigh) : this()
+        {
+            Card.isAceHigh = isAceHigh;
+        }
+
+        public Deck (bool useTrumps,Suit trump) : this()
+        {
+            Card.useTrumps = useTrumps;
+            Card.trump = trump;
+        }
+
+        public Deck(bool isAceHigh, bool useTrumps, Suit trump) : this()
+        {
+            Card.isAceHigh = isAceHigh;
+            Card.useTrumps = useTrumps;
+            Card.trump = trump;
+        }
+
         public object Clone()
         {
             //throw new NotImplementedException();
@@ -69,5 +91,7 @@ namespace CardLib
 
             newDeck.CopyTo(cards);
         }
+
+
     }
 }
