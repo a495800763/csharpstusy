@@ -7,6 +7,10 @@ namespace CardLib
 {
     public class Deck :ICloneable
     {
+
+        //事件:最后一张牌被选了
+        public event EventHandler LastCardDrawn; 
+
         private Cards cards = new Cards();
 
         public Deck()
@@ -58,11 +62,17 @@ namespace CardLib
         {
             if (cardNum >= 0 && cardNum <= 51)
             {
+                if ((cardNum == 51) && (LastCardDrawn != null))
+                {
+                    //当cardNum 为最后一张牌，且有监听程序注册到事件时，触发“最后一张牌被选了”这一事件
+                    LastCardDrawn(this, EventArgs.Empty);
+                }
                 return cards[cardNum];
             }
             else
             {
-                throw (new System.ArgumentOutOfRangeException("cardNum", cardNum, "Value nust be between 0 and 51."));
+                //throw (new System.ArgumentOutOfRangeException("cardNum", cardNum, "Value nust be between 0 and 51."));
+                throw new CardOutOfRangeException(cards.Clone() as Cards);
             }
         }
 

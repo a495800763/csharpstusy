@@ -11,34 +11,44 @@ namespace CardClient
     {
         static void Main(string[] args)
         {
-            //Deck myDeck = new Deck();
-            //myDeck.Shuffle();
-            //for(int i = 0; i < 52; i++)
-            //{
-            //    Card tempCard = myDeck.GetCard(i);
-            //    Console.Write(tempCard.ToString());
-            //    if (i != 51)
-            //    {
-            //        Console.Write(",");
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("");
-            //    }
-            //}
-            //Console.ReadKey();
-
-            //Deck deck1 = new Deck();
-            //Deck deck2 = (Deck)deck1.Clone();
-
-            //Console.WriteLine($"The first card in the original deck is : {deck1.GetCard(0)}");
-            //Console.WriteLine($"The first card in the cloned deck is : {deck2.GetCard(0)}");
-            //deck1.Shuffle();
-            //Console.WriteLine("The original deck shuffled.");
-            //Console.WriteLine($"The first card in the original deck is : {deck1.GetCard(0)}");
-            //Console.WriteLine($"The first card in the cloned deck is : {deck2.GetCard(0)}");
-            CompareCards();
+            
+           
+            TestException();
             Console.ReadKey();
+        }
+
+        public static void Function1()
+        {
+            Deck myDeck = new Deck();
+            myDeck.Shuffle();
+            for (int i = 0; i < 52; i++)
+            {
+                Card tempCard = myDeck.GetCard(i);
+                Console.Write(tempCard.ToString());
+                if (i != 51)
+                {
+                    Console.Write(",");
+                }
+                else
+                {
+                    Console.WriteLine("");
+                }
+            }
+            Console.ReadKey();
+
+        }
+
+        public  static void Function2()
+        {
+            Deck deck1 = new Deck();
+            Deck deck2 = (Deck)deck1.Clone();
+
+            Console.WriteLine($"The first card in the original deck is : {deck1.GetCard(0)}");
+            Console.WriteLine($"The first card in the cloned deck is : {deck2.GetCard(0)}");
+            deck1.Shuffle();
+            Console.WriteLine("The original deck shuffled.");
+            Console.WriteLine($"The first card in the original deck is : {deck1.GetCard(0)}");
+            Console.WriteLine($"The first card in the cloned deck is : {deck2.GetCard(0)}");
         }
 
         public static void CompareCards()
@@ -68,6 +78,20 @@ namespace CardClient
             Console.WriteLine($"{card4.ToString()} > {card5.ToString()} ? {card4 > card5}");
 
             Console.ReadKey();
+        }
+
+        public static void TestException()
+        {
+            Deck deck1 = new Deck();
+            try
+            {
+                Card myCard = deck1.GetCard(60);
+            }
+            catch(CardOutOfRangeException e)
+            {
+                Console.WriteLine(e.Message);
+                Console.WriteLine(e.DeckContents[0]);
+            }
         }
     }
 }
