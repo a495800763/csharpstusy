@@ -11,9 +11,9 @@ namespace CardClient
     {
         static void Main(string[] args)
         {
-            
-           
-            TestException();
+
+
+            PlayCardMainFunction();
             Console.ReadKey();
         }
 
@@ -94,7 +94,7 @@ namespace CardClient
             }
         }
 
-        public void PlayCardMainFunction()
+        public static void PlayCardMainFunction()
         {
             //Display introduction.
             Console.WriteLine("Liumengqi: a new and exciting card game.");
