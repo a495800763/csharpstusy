@@ -8,7 +8,7 @@ namespace EventTest.EventTestSource
 {
     class MainClass
     {
-        public static void Main(string[] args)
+        public static void Function(string[] args)
         {
             EventTest();
         }

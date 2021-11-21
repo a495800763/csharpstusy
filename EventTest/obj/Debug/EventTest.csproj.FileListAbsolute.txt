@@ -1,6 +1,6 @@
-C:\Users\liumq\source\repos\ConsoleApp2\EventTest\bin\Debug\EventTest.dll
 C:\Users\liumq\source\repos\ConsoleApp2\EventTest\bin\Debug\EventTest.pdb
 C:\Users\liumq\source\repos\ConsoleApp2\EventTest\obj\Debug\EventTest.csprojAssemblyReference.cache
 C:\Users\liumq\source\repos\ConsoleApp2\EventTest\obj\Debug\EventTest.csproj.CoreCompileInputs.cache
-C:\Users\liumq\source\repos\ConsoleApp2\EventTest\obj\Debug\EventTest.dll
 C:\Users\liumq\source\repos\ConsoleApp2\EventTest\obj\Debug\EventTest.pdb
+C:\Users\liumq\source\repos\ConsoleApp2\EventTest\bin\Debug\EventTest.exe
+C:\Users\liumq\source\repos\ConsoleApp2\EventTest\obj\Debug\EventTest.exe
