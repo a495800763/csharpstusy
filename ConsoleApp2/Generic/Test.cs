@@ -41,61 +41,61 @@ namespace ConsoleApp2.Generic
 
             //Dictionary<string, int> things = new Dictionary<string, int>(StringComparer.CurrentCultureIgnoreCase);
 
-            List<Cow> cows = new List<Cow>();
-            cows.Add(new Cow("Rual"));
-            cows.Add(new SupperCow("Donna"));
-            cows.Add(new Cow("Mary"));
-            cows.Add(new Cow("Ben"));
-            cows.Sort(new AnimalNameLengthComparer());
-            Console.WriteLine(cows.ToString());
-            Console.ReadKey();
+            //List<Cow> cows = new List<Cow>();
+            //cows.Add(new Cow("Rual"));
+            //cows.Add(new SupperCow("Donna"));
+            //cows.Add(new Cow("Mary"));
+            //cows.Add(new Cow("Ben"));
+            //cows.Sort(new AnimalNameLengthComparer());
+            //Console.WriteLine(cows.ToString());
+            //Console.ReadKey();
         }
 
         static void Test1()
         {
-            Farm<Animal> farm = new Farm<Animal>();
-            farm.Animals.Add(new Cow("A"));
-            farm.Animals.Add(new Chicken("B"));
-            farm.Animals.Add(new Chicken("C"));
-            farm.Animals.Add(new SupperCow("D"));
+        //    Farm<Animal> farm = new Farm<Animal>();
+        //    farm.Animals.Add(new Cow("A"));
+        //    farm.Animals.Add(new Chicken("B"));
+        //    farm.Animals.Add(new Chicken("C"));
+        //    farm.Animals.Add(new SupperCow("D"));
 
-            farm.MakeNoise();
+        //    farm.MakeNoise();
 
-            Farm<Cow> cows = farm.getCows();
+        //    Farm<Cow> cows = farm.getCows();
 
-            foreach (Cow cow in cows)
-            {
-                if (cow is SupperCow)
-                {
-                    ((SupperCow)cow).Fly();
-                }
-            }
+        //    foreach (Cow cow in cows)
+        //    {
+        //        if (cow is SupperCow)
+        //        {
+        //            ((SupperCow)cow).Fly();
+        //        }
+        //    }
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
 
-        static Vector GetVector(string name)
-        {
-            Console.WriteLine($"Input {name} magnitude:");
-            double? r = GetNullableDouble();
-            Console.WriteLine($"Input {name} angle (in degrees):");
-            double? theta = GetNullableDouble();
-            return new Vector(r, theta);
-        }
+        //static Vector GetVector(string name)
+        //{
+        //    Console.WriteLine($"Input {name} magnitude:");
+        //    double? r = GetNullableDouble();
+        //    Console.WriteLine($"Input {name} angle (in degrees):");
+        //    double? theta = GetNullableDouble();
+        //    return new Vector(r, theta);
+        //}
 
-        static double? GetNullableDouble()
-        {
-            double? result;
-            string userInput = Console.ReadLine();
-            try
-            {
-                result = double.Parse(userInput);
-            }
-            catch
-            {
-                result = null;
-            }
-            return result;
+        //static double? GetNullableDouble()
+        //{
+        //    double? result;
+        //    string userInput = Console.ReadLine();
+        //    try
+        //    {
+        //        result = double.Parse(userInput);
+        //    }
+        //    catch
+        //    {
+        //        result = null;
+        //    }
+        //    return result;
         }
     }
 }

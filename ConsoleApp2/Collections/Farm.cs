@@ -60,5 +60,10 @@ namespace ConsoleApp2.Collections
             }
             return cowFarm;
         }
+
+        public void Add(T animal)
+        {
+            animals.Add(animal);
+        }
     }
 }

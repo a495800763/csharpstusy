@@ -15,6 +15,6 @@ namespace ConsoleApp2.Collections
             Console.WriteLine($"{name} says 'cluck' !");
         }
 
-        public Chicken(string newName) : base(newName) { }
+        //public Chicken(string newName) : base(newName) { }
     }
 }

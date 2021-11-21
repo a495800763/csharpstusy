@@ -13,10 +13,10 @@ namespace ConsoleApp2.Collections
             Console.WriteLine($"{name} is flying!");
         }
 
-        public SupperCow(string newName) : base(newName)
-        {
+        //public SupperCow(string newName) : base(newName)
+        //{
 
-        }
+        //}
 
         public override void MakeANoise()
         {
