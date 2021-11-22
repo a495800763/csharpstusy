@@ -70,6 +70,7 @@
     <Compile Include="ClassAndObject\ClassTest.cs" />
     <Compile Include="ClassAndObject\StructAndClassTest.cs" />
     <Compile Include="ClassAndObject\TestDllReference.cs" />
+    <Compile Include="ClassAndObject\WordProcessor.cs" />
     <Compile Include="Collections\Animal.cs" />
     <Compile Include="Collections\AnimalNameLengthComparer.cs" />
     <Compile Include="Collections\Animals.cs" />

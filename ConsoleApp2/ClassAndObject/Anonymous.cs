@@ -8,7 +8,7 @@ namespace ConsoleApp2.ClassAndObject
 {
     public class Anonymous
     {
-        public static void Main(string[] args)
+        public static void Function(string[] args)
         {
             var animals = new[]
             {
