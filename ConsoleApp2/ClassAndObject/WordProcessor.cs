@@ -9,7 +9,7 @@ namespace ConsoleApp2.ClassAndObject
     public class WordProcessor
     {
 
-        public static void Main(string[] args)
+        public static void Function(string[] args)
         {
             string sentence = "his gaze against the sweeping bars has grown so weary";
             List<string> words;

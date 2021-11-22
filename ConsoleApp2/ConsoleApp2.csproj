@@ -68,6 +68,7 @@
     <Compile Include="Chapter03.cs" />
     <Compile Include="ClassAndObject\Anonymous.cs" />
     <Compile Include="ClassAndObject\ClassTest.cs" />
+    <Compile Include="ClassAndObject\LambdaTest.cs" />
     <Compile Include="ClassAndObject\StructAndClassTest.cs" />
     <Compile Include="ClassAndObject\TestDllReference.cs" />
     <Compile Include="ClassAndObject\WordProcessor.cs" />
