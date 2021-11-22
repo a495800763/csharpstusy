@@ -34,7 +34,7 @@ namespace ConsoleApp2.ClassAndObject
             }
         }
 
-        public static void Main(string[] args)
+        public static void Funtion(string[] args)
         {
             Console.WriteLine("f(a,b) = a+b:");
             PerformOperations((p, q) => p + q);
