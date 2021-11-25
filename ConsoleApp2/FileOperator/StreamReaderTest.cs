@@ -9,7 +9,7 @@ namespace ConsoleApp2.FileOperator
 {
     public class StreamReaderTest
     {
-        public static void Main(string[] args)
+        public static void Function(string[] args)
         {
             string line;
             try

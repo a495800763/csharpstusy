@@ -90,6 +90,7 @@
     <Compile Include="DoWhileTest.cs" />
     <Compile Include="ExceptionFilterTest.cs" />
     <Compile Include="FileOperator\Class1.cs" />
+    <Compile Include="FileOperator\CompressorTest.cs" />
     <Compile Include="FileOperator\ReadFileTest.cs" />
     <Compile Include="FileOperator\StreamReaderTest.cs" />
     <Compile Include="FileOperator\StreamWriterTest.cs" />
