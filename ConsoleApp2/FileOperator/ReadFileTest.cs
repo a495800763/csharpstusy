@@ -9,7 +9,7 @@ namespace ConsoleApp2.FileOperator
 {
     class ReadFileTest
     {
-        public static void Main(string[] args)
+        public static void Function(string[] args)
         {
             byte[] byteData = new byte[200];
             char[] charData = new char[200];
@@ -27,6 +27,7 @@ namespace ConsoleApp2.FileOperator
                 Console.ReadKey();
                 return;
             }
+            //基于UTF-8将字节流转换为字符，以供控制台显示
             Decoder d = Encoding.UTF8.GetDecoder();
             d.GetChars(byteData, 0, byteData.Length, charData, 0);
             Console.WriteLine(charData);

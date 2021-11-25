@@ -90,6 +90,7 @@
     <Compile Include="DoWhileTest.cs" />
     <Compile Include="ExceptionFilterTest.cs" />
     <Compile Include="FileOperator\ReadFileTest.cs" />
+    <Compile Include="FileOperator\WriteFileTest.cs" />
     <Compile Include="Generic\GeneticTest.cs" />
     <Compile Include="Generic\Test.cs" />
     <Compile Include="Generic\Vector.cs" />
