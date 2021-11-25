@@ -11,7 +11,7 @@ namespace ConsoleApp2.ClassAndObject
     /// </summary>
     class AggregateTest
     {
-        public static void Main(string[] args)
+        public static void Function(string[] args)
         {
             string[] people = { "Donna", "Mary", "Andrea" };
             Console.WriteLine(people.Aggregate((p, q) => { return p + "" + q; }));
