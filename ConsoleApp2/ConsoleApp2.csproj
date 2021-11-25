@@ -89,7 +89,10 @@
     <Compile Include="DelegateTest.cs" />
     <Compile Include="DoWhileTest.cs" />
     <Compile Include="ExceptionFilterTest.cs" />
+    <Compile Include="FileOperator\Class1.cs" />
     <Compile Include="FileOperator\ReadFileTest.cs" />
+    <Compile Include="FileOperator\StreamReaderTest.cs" />
+    <Compile Include="FileOperator\StreamWriterTest.cs" />
     <Compile Include="FileOperator\WriteFileTest.cs" />
     <Compile Include="Generic\GeneticTest.cs" />
     <Compile Include="Generic\Test.cs" />

@@ -9,7 +9,7 @@ namespace ConsoleApp2.FileOperator
 {
     public class WriteFileTest
     {
-        public static void Main(string[] args)
+        public static void Function(string[] args)
         {
             byte[] byteData;
             char[] charData;
