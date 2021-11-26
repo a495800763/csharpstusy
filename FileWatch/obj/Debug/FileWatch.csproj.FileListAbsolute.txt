@@ -1,0 +1,15 @@
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\bin\Debug\FileWatch.exe.config
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\bin\Debug\FileWatch.exe
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\bin\Debug\FileWatch.pdb
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\obj\Debug\FileWatch.csprojAssemblyReference.cache
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\obj\Debug\MainWindow.g.cs
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\obj\Debug\App.g.cs
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\obj\Debug\FileWatch_MarkupCompile.cache
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\obj\Debug\FileWatch_MarkupCompile.lref
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\obj\Debug\MainWindow.baml
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\obj\Debug\FileWatch.g.resources
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\obj\Debug\FileWatch.Properties.Resources.resources
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\obj\Debug\FileWatch.csproj.GenerateResource.cache
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\obj\Debug\FileWatch.csproj.CoreCompileInputs.cache
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\obj\Debug\FileWatch.exe
+C:\Users\liumq\source\repos\ConsoleApp2\FileWatch\obj\Debug\FileWatch.pdb
