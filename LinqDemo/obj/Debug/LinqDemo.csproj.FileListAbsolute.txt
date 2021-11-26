@@ -1,0 +1,7 @@
+C:\Users\liumq\source\repos\ConsoleApp2\LinqDemo\bin\Debug\LinqDemo.exe.config
+C:\Users\liumq\source\repos\ConsoleApp2\LinqDemo\bin\Debug\LinqDemo.exe
+C:\Users\liumq\source\repos\ConsoleApp2\LinqDemo\bin\Debug\LinqDemo.pdb
+C:\Users\liumq\source\repos\ConsoleApp2\LinqDemo\obj\Debug\LinqDemo.csprojAssemblyReference.cache
+C:\Users\liumq\source\repos\ConsoleApp2\LinqDemo\obj\Debug\LinqDemo.csproj.CoreCompileInputs.cache
+C:\Users\liumq\source\repos\ConsoleApp2\LinqDemo\obj\Debug\LinqDemo.exe
+C:\Users\liumq\source\repos\ConsoleApp2\LinqDemo\obj\Debug\LinqDemo.pdb

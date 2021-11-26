@@ -1,0 +1,15 @@
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\bin\Debug\LoopThroughXmlDocument.exe.config
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\bin\Debug\LoopThroughXmlDocument.exe
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\bin\Debug\LoopThroughXmlDocument.pdb
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument.csprojAssemblyReference.cache
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\obj\Debug\MainWindow.g.cs
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\obj\Debug\App.g.cs
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument_MarkupCompile.cache
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument_MarkupCompile.lref
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\obj\Debug\MainWindow.baml
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument.g.resources
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument.Properties.Resources.resources
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument.csproj.GenerateResource.cache
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument.csproj.CoreCompileInputs.cache
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument.exe
+C:\Users\liumq\source\repos\ConsoleApp2\LoopThroughXmlDocument\obj\Debug\LoopThroughXmlDocument.pdb
