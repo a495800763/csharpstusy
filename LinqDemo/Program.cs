@@ -9,7 +9,7 @@ namespace LinqDemo
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Function(string[] args)
         {
             string[] names = { "Alonso","Zheng","Smith","Jones","Smythe","Small","Ruiz","Hsieh","Jorgenson","Ilyich","Singh",
             "Samba","Fatimah"};
