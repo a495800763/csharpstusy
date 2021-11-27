@@ -11,16 +11,15 @@ namespace LinqDemo
     {
         public static void Main(string[] args)
         {
-            IEnumerable<object> queryResults = MultiOrderByResult();
-            foreach (var item in queryResults)
-            {
-                WriteLine(item);
-            }
-
+            GroupByResult();
             Write("Program finished.press Enter/Return to continue.");
             ReadLine();
         }
 
+        /// <summary>
+        /// distinct 查询
+        /// </summary>
+        /// <returns></returns>
         private static IEnumerable<string> DistinctResult()
         {
             List<Customer> customers = GetCustomers();
@@ -28,6 +27,10 @@ namespace LinqDemo
             return queryResults;
         }
 
+        /// <summary>
+        /// 多级orderby 查询
+        /// </summary>
+        /// <returns></returns>
         private static IEnumerable<object> MultiOrderByResult()
         {
             List<Customer> customers = GetCustomers();
@@ -38,6 +41,34 @@ namespace LinqDemo
                 select new { c.ID, c.Region, c.Country, c.City };
 
             return reslt;
+        }
+
+        /// <summary>
+        /// group by 分组查询
+        /// </summary>
+        /// <returns></returns>
+        public static void GroupByResult()
+        {
+            List<Customer> customers = GetCustomers();
+            var queryResults = customers.GroupBy(q => q.Region).Select(q => new { TotalSales = q.Sum(w => w.Sales), Region = q.Key });
+
+            var orderedResult = queryResults.OrderBy(q => q.TotalSales);
+            WriteLine("Total\t: By\nSales\t: Region\n-----\t ------");
+            foreach (var item in orderedResult)
+            {
+                WriteLine($"{item.TotalSales}\t: {item.Region}");
+            }
+        }
+
+        /// <summary>
+        /// join 查询
+        /// </summary>
+        public static void JoinResult()
+        {
+            //List<Customer> customers = GetCustomers();
+            //var quertResults = 
+            //    from c in customers
+            //    join o in orders
         }
 
         private static List<Customer> GetCustomers()
